@@ -5,6 +5,36 @@ __metadata:
   version: 4
   cacheKey: 7
 
+"@ant-design/colors@npm:^5.0.0":
+  version: 5.1.1
+  resolution: "@ant-design/colors@npm:5.1.1"
+  dependencies:
+    "@ctrl/tinycolor": ^3.3.1
+  checksum: 251e07493753c08aa044e72aacafd2e46e3e9a2da12d8a08e75d4c3e62fbce50847d5883013bbd690fc57a9b915239c43d391a2f7834a546b0049dd50ecb3322
+  languageName: node
+  linkType: hard
+
+"@ant-design/icons-svg@npm:^4.0.0":
+  version: 4.1.0
+  resolution: "@ant-design/icons-svg@npm:4.1.0"
+  checksum: 88ef2ced4d99278d7fb2c338459e18aca8d78be627545e44127b606c8e0f7d15b0133b22697dc0a33b712419e37152db0b800697824204aafb473e2a79ad6374
+  languageName: node
+  linkType: hard
+
+"@ant-design/icons-vue@npm:^6.0.0":
+  version: 6.0.1
+  resolution: "@ant-design/icons-vue@npm:6.0.1"
+  dependencies:
+    "@ant-design/colors": ^5.0.0
+    "@ant-design/icons-svg": ^4.0.0
+    "@types/lodash": ^4.14.165
+    lodash: ^4.17.15
+  peerDependencies:
+    vue: ">=3.0.3"
+  checksum: eff657696d735ceb26c6f48c0e14b7b1c0441adbc3fe8fabc187e02782366d7f5cca96769a08aae3bdaa036411a304b00c025236b8ecc0e48e9eb99fc608da4a
+  languageName: node
+  linkType: hard
+
 "@babel/code-frame@npm:^7.0.0, @babel/code-frame@npm:^7.14.5, @babel/code-frame@npm:^7.8.3":
   version: 7.14.5
   resolution: "@babel/code-frame@npm:7.14.5::__archiveUrl=https%3A%2F%2Fregistry.nlark.com%2F%40babel%2Fcode-frame%2Fdownload%2F%40babel%2Fcode-frame-7.14.5.tgz"
@@ -1209,6 +1239,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@babel/runtime@npm:^7.0.0, @babel/runtime@npm:^7.10.5":
+  version: 7.14.6
+  resolution: "@babel/runtime@npm:7.14.6"
+  dependencies:
+    regenerator-runtime: ^0.13.4
+  checksum: dd931f6ef1c8dab295c4a00c592db6352bf12a5c443f8222304d5c1d3e88d795fa949afcb6f053eec2e69e9827a17ff274524c1cd43813f56b61e3a540274d2f
+  languageName: node
+  linkType: hard
+
 "@babel/runtime@npm:^7.11.0, @babel/runtime@npm:^7.8.4":
   version: 7.14.6
   resolution: "@babel/runtime@npm:7.14.6::__archiveUrl=https%3A%2F%2Fregistry.nlark.com%2F%40babel%2Fruntime%2Fdownload%2F%40babel%2Fruntime-7.14.6.tgz"
@@ -1253,6 +1292,13 @@ __metadata:
     "@babel/helper-validator-identifier": ^7.14.5
     to-fast-properties: ^2.0.0
   checksum: 45575b46df5ec0e63454b794a60f362596c6f16beda7df3693b134db5be15eb43f7b98ca7b2a5a9628171db5192eed5b8965e43c0a6f5383bca4ddefd0ea8d30
+  languageName: node
+  linkType: hard
+
+"@ctrl/tinycolor@npm:^3.3.1":
+  version: 3.4.0
+  resolution: "@ctrl/tinycolor@npm:3.4.0"
+  checksum: 59a30b5d964edc06bf78bd36389326caffd2e29189270c75467afc160e8f2ddf89a5cbea70ab2463712aa5ca1b770988b7c0ea9dce3eb93f7928e8e5226efa28
   languageName: node
   linkType: hard
 
@@ -1362,6 +1408,16 @@ __metadata:
     mkdirp: ^1.0.4
     rimraf: ^3.0.2
   checksum: d178d86a0a96e5aa12e6d70c00d50eb3bb9a58c0cf1c36e1d7f240acb4ae3f14642c6314659c438ea409a509f08c2a62e29c9346a033e554c3f6921cdb293219
+  languageName: node
+  linkType: hard
+
+"@simonwep/pickr@npm:~1.8.0":
+  version: 1.8.1
+  resolution: "@simonwep/pickr@npm:1.8.1"
+  dependencies:
+    core-js: ^3.12.1
+    nanopop: ^2.1.0
+  checksum: 19dc1123e6918a11be208b924b37fb1db6ca9e722accdef6ed75544c286658030fbea644fdf2b5d07a62313862d1c5a98fa7619d2940e4da75074176d734e750
   languageName: node
   linkType: hard
 
@@ -1475,6 +1531,13 @@ __metadata:
   version: 7.0.8
   resolution: "@types/json-schema@npm:7.0.8::__archiveUrl=https%3A%2F%2Fregistry.nlark.com%2F%40types%2Fjson-schema%2Fdownload%2F%40types%2Fjson-schema-7.0.8.tgz"
   checksum: 435a3d18a88aeac7bc88c2cdd2c19466c62ce79303493edd72380cd4af9775c05f35d424d5e76ffe3f94575ebb535305c6cae928c5bfb9c39eafbfb6932520a1
+  languageName: node
+  linkType: hard
+
+"@types/lodash@npm:^4.14.165":
+  version: 4.14.171
+  resolution: "@types/lodash@npm:4.14.171"
+  checksum: e48668fb030ad7d8c0c7751061bd332ad8704937d976bd4e24fd9e2128f80c17112be11e5c13d39f6a210336dc3549f7fb00eaebb56b94c2bfb89ad64c57d721
   languageName: node
   linkType: hard
 
@@ -2632,6 +2695,32 @@ __metadata:
   languageName: node
   linkType: hard
 
+"ant-design-vue@npm:next":
+  version: 2.2.2
+  resolution: "ant-design-vue@npm:2.2.2"
+  dependencies:
+    "@ant-design/icons-vue": ^6.0.0
+    "@babel/runtime": ^7.10.5
+    "@simonwep/pickr": ~1.8.0
+    array-tree-filter: ^2.1.0
+    async-validator: ^3.3.0
+    dom-align: ^1.12.1
+    dom-scroll-into-view: ^2.0.0
+    lodash: ^4.17.21
+    lodash-es: ^4.17.15
+    moment: ^2.27.0
+    omit.js: ^2.0.0
+    scroll-into-view-if-needed: ^2.2.25
+    shallow-equal: ^1.0.0
+    vue-types: ^3.0.0
+    warning: ^4.0.0
+  peerDependencies:
+    "@vue/compiler-sfc": ">=3.1.0"
+    vue: ">=3.1.0"
+  checksum: abd18c12e2f8a45fc6cbdc37ca80b8313dc92e7c8ba8b5b72a12c440fd8aae4437a23c619b43cadb0e45e6d44598d84b0bc662b662075047068cd70cac9f46f8
+  languageName: node
+  linkType: hard
+
 "any-promise@npm:^1.0.0":
   version: 1.3.0
   resolution: "any-promise@npm:1.3.0::__archiveUrl=https%3A%2F%2Fregistry.nlark.com%2Fany-promise%2Fdownload%2Fany-promise-1.3.0.tgz"
@@ -2724,6 +2813,13 @@ __metadata:
   version: 2.1.2
   resolution: "array-flatten@npm:2.1.2::__archiveUrl=https%3A%2F%2Fregistry.nlark.com%2Farray-flatten%2Fdownload%2Farray-flatten-2.1.2.tgz"
   checksum: 46bfb198da424765f26350a8d8b207deade75d493e6d26417bfebb4027857b9fef8f5ae3bacd0b912f9a9fd2c04e2ec140c7183c0408e10950579e9d5c9dea25
+  languageName: node
+  linkType: hard
+
+"array-tree-filter@npm:^2.1.0":
+  version: 2.1.0
+  resolution: "array-tree-filter@npm:2.1.0"
+  checksum: 5a8c3b99dbbad1ca2d1016e5b07442416ab6deef1b861640f6e55e76d0cd6991b17aff786fff1e623783415ec00b4da840c10b3ade38ba9d4e91db693b1245c0
   languageName: node
   linkType: hard
 
@@ -2823,6 +2919,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"async-validator@npm:^3.3.0":
+  version: 3.5.2
+  resolution: "async-validator@npm:3.5.2"
+  checksum: 6a5bfda8cdb6a1ac4253bf1e2a813ee111faff82c8d502e981398a2abd043819ff780715ccddf4652a9dc77666f823315240972b3cc861ccef4923f3e8bd24f3
+  languageName: node
+  linkType: hard
+
 "async@npm:^2.6.2":
   version: 2.6.3
   resolution: "async@npm:2.6.3::__archiveUrl=https%3A%2F%2Fregistry.nlark.com%2Fasync%2Fdownload%2Fasync-2.6.3.tgz"
@@ -2918,6 +3021,16 @@ __metadata:
   dependencies:
     object.assign: ^4.1.0
   checksum: 6745b8edca96f6c8bc34ab65935b5676358d2e55323e8e823b8de7aa353e3e6398a495ce434c9c36ad5fb1609467a1b1a0028946e1490bf7de8f97df3ae7f3b1
+  languageName: node
+  linkType: hard
+
+"babel-plugin-import@npm:^1.13.3":
+  version: 1.13.3
+  resolution: "babel-plugin-import@npm:1.13.3"
+  dependencies:
+    "@babel/helper-module-imports": ^7.0.0
+    "@babel/runtime": ^7.0.0
+  checksum: 4a21b12990922ff32544f48b6e6df0bd22980bf52d33814ded548fc2d98412ada4991782b390bc8415088ad0c8ef9175698c730e2e39dce5f1ef2fedaf9391bc
   languageName: node
   linkType: hard
 
@@ -3907,6 +4020,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"compute-scroll-into-view@npm:^1.0.17":
+  version: 1.0.17
+  resolution: "compute-scroll-into-view@npm:1.0.17"
+  checksum: 15e88fe143ff290807fe47f81b17ea809f31e82ba9ec72e4e59470c1e204bc62432cc27094a0788ba8d5c242f1b781d973b77d42c55689deda3dc7df934b040e
+  languageName: node
+  linkType: hard
+
 "concat-map@npm:0.0.1":
   version: 0.0.1
   resolution: "concat-map@npm:0.0.1::__archiveUrl=https%3A%2F%2Fregistry.nlark.com%2Fconcat-map%2Fdownload%2Fconcat-map-0.0.1.tgz"
@@ -4061,6 +4181,13 @@ __metadata:
     browserslist: ^4.16.6
     semver: 7.0.0
   checksum: 36b6881def01995c648e21bee742fe3f08659c4c73c4ea4ce15da294f52533e2fda8e0b5635889e3dabdbee1f641d09658e3c765116c2803b81cf38e954ecd46
+  languageName: node
+  linkType: hard
+
+"core-js@npm:^3.12.1":
+  version: 3.15.2
+  resolution: "core-js@npm:3.15.2"
+  checksum: 983706260ab8d1fb07adceda18b76165b625bb5807fa0974090c2167ec3744fc148c0827f3a53dc6f7783b334830b181162aa92a259d90cd3d9c8ae5284e0d9f
   languageName: node
   linkType: hard
 
@@ -4696,12 +4823,26 @@ __metadata:
   languageName: node
   linkType: hard
 
+"dom-align@npm:^1.12.1":
+  version: 1.12.2
+  resolution: "dom-align@npm:1.12.2"
+  checksum: 16227c1538da578756464290d20b1f54a8066a1d2b6582556163512b90251bf498a58ba3392dbfc75c6bbca3258fa898a9cf1d53cc9f869729a7e8295a5a7d7d
+  languageName: node
+  linkType: hard
+
 "dom-converter@npm:^0.2.0":
   version: 0.2.0
   resolution: "dom-converter@npm:0.2.0::__archiveUrl=https%3A%2F%2Fregistry.nlark.com%2Fdom-converter%2Fdownload%2Fdom-converter-0.2.0.tgz"
   dependencies:
     utila: ~0.4
   checksum: 437b4464bd3c5e654decf855f9263e939d633d7bb720512f9a400b3e1005d870eb4a5fbead7d9ccb7849f7df5ee30c62f9a56b68143c13575ae5fef16007742c
+  languageName: node
+  linkType: hard
+
+"dom-scroll-into-view@npm:^2.0.0":
+  version: 2.0.1
+  resolution: "dom-scroll-into-view@npm:2.0.1"
+  checksum: f497202e8ef9995042ef2c658acd63974261ac8c4898a7906c64e088495f552af72d6a0874bae35d8afeec0087269b2a6cced13f1a674574ccd6628ca7b86406
   languageName: node
   linkType: hard
 
@@ -6144,6 +6285,8 @@ fsevents@~2.3.2:
     "@vue/cli-service": ~4.5.0
     "@vue/compiler-sfc": ^3.0.0
     "@vue/eslint-config-typescript": ^7.0.0
+    ant-design-vue: next
+    babel-plugin-import: ^1.13.3
     core-js: ^3.6.5
     eslint: ^6.7.2
     eslint-plugin-vue: ^7.0.0
@@ -7190,6 +7333,13 @@ fsevents@~2.3.2:
   languageName: node
   linkType: hard
 
+"is-plain-object@npm:3.0.1":
+  version: 3.0.1
+  resolution: "is-plain-object@npm:3.0.1"
+  checksum: 53b6f5b558a494f20304aad4d484739c96826c4a7c89ef9c6479009df89e725d5a355f592ccba2cd9e94c36fda35d2d229d597f5ccd0c9deb8c8ccd0077ec617
+  languageName: node
+  linkType: hard
+
 "is-plain-object@npm:^2.0.3, is-plain-object@npm:^2.0.4":
   version: 2.0.4
   resolution: "is-plain-object@npm:2.0.4::__archiveUrl=https%3A%2F%2Fregistry.nlark.com%2Fis-plain-object%2Fdownload%2Fis-plain-object-2.0.4.tgz"
@@ -7333,6 +7483,13 @@ fsevents@~2.3.2:
   dependencies:
     easy-stack: ^1.0.1
   checksum: 7429a0fa774e2893fb77fa9e9649321b8e1337b55798dc3a690d784ede8ffe30ea225eeadb813b5dd1213463b8cb283938ca1c61123ec6b4b569509207022f03
+  languageName: node
+  linkType: hard
+
+"js-tokens@npm:^3.0.0 || ^4.0.0":
+  version: 4.0.0
+  resolution: "js-tokens@npm:4.0.0"
+  checksum: 1fc4e4667ac2d972aba65148b9cbf9c17566b2394d3504238d8492bbd3e68f496c657eab06b26b40b17db5cac0a34d153a12130e2d2d2bb6dc2cdc8a4764eb1b
   languageName: node
   linkType: hard
 
@@ -7649,6 +7806,13 @@ fsevents@~2.3.2:
   languageName: node
   linkType: hard
 
+"lodash-es@npm:^4.17.15":
+  version: 4.17.21
+  resolution: "lodash-es@npm:4.17.21"
+  checksum: ff0e7bb9595594d8b9c32fbe15912eaeefd83266f6e6872fbc498533cf8c2f039d12d37034b33965f1c04ef66ec1d6da83377c77e84e14c51a137901bb50865e
+  languageName: node
+  linkType: hard
+
 "lodash.camelcase@npm:^4.3.0":
   version: 4.3.0
   resolution: "lodash.camelcase@npm:4.3.0::__archiveUrl=https%3A%2F%2Fregistry.nlark.com%2Flodash.camelcase%2Fdownload%2Flodash.camelcase-4.3.0.tgz"
@@ -7725,6 +7889,17 @@ fsevents@~2.3.2:
   version: 1.7.1
   resolution: "loglevel@npm:1.7.1::__archiveUrl=https%3A%2F%2Fregistry.nlark.com%2Floglevel%2Fdownload%2Floglevel-1.7.1.tgz"
   checksum: abee97e346afb3c7e4130eff3025b4e8da1450cf92495bd12f3cc5faff46d6f658f73529c21e7d75634677f48ab1e14ceb5167d1952f53e8aceba5cb795029c2
+  languageName: node
+  linkType: hard
+
+"loose-envify@npm:^1.0.0":
+  version: 1.4.0
+  resolution: "loose-envify@npm:1.4.0"
+  dependencies:
+    js-tokens: ^3.0.0 || ^4.0.0
+  bin:
+    loose-envify: cli.js
+  checksum: 5c3b47bbe5f597a3889fb001a3a98aaea2a3fafa48089c19034de1e0121bf57dbee609d184478514d74d5c5a7e9cfa3d846343455e5123b060040d46c39e91dc
   languageName: node
   linkType: hard
 
@@ -8188,6 +8363,13 @@ fsevents@~2.3.2:
   languageName: node
   linkType: hard
 
+"moment@npm:^2.27.0":
+  version: 2.29.1
+  resolution: "moment@npm:2.29.1"
+  checksum: 86729013febf7160de5b93da69273dd304d674b0224f9544b3abd09a87671ddd2cdd57598261ce57588910d63747ffd5590965e83c790d8bf327083c0e0a06e0
+  languageName: node
+  linkType: hard
+
 "move-concurrently@npm:^1.0.1":
   version: 1.0.1
   resolution: "move-concurrently@npm:1.0.1::__archiveUrl=https%3A%2F%2Fregistry.nlark.com%2Fmove-concurrently%2Fdownload%2Fmove-concurrently-1.0.1.tgz"
@@ -8301,6 +8483,13 @@ fsevents@~2.3.2:
     snapdragon: ^0.8.1
     to-regex: ^3.0.1
   checksum: 2e1440c5705f0192b9d9b46bb682a1832052974dad359ed473b9f555abb5c55a08b3d5ba45d7d37c53a83f64b7f93866292824d3086a150ff7980e71874feb3b
+  languageName: node
+  linkType: hard
+
+"nanopop@npm:^2.1.0":
+  version: 2.1.0
+  resolution: "nanopop@npm:2.1.0"
+  checksum: c817be67a2bfd2440932605e1ea90b07ef31aad7c40e2768bbc79e40532074cf53168f059f63b481ec9cc1891eb7efd0f84cb49fcc0f5a1027656e2e6d2e8c61
   languageName: node
   linkType: hard
 
@@ -8663,6 +8852,13 @@ fsevents@~2.3.2:
   version: 1.1.2
   resolution: "obuf@npm:1.1.2::__archiveUrl=https%3A%2F%2Fregistry.nlark.com%2Fobuf%2Fdownload%2Fobuf-1.1.2.tgz"
   checksum: aa741387b0f5dc2b8addec7cd0e05448d8b2892b6e76e167e18a5b90f0b85bd4c9be4c7be01a354dee3353f5c3367b08006adb06e0737d6a8f1b88618147715a
+  languageName: node
+  linkType: hard
+
+"omit.js@npm:^2.0.0":
+  version: 2.0.2
+  resolution: "omit.js@npm:2.0.2"
+  checksum: 4827dab2a5e97a9679dc3fe4ac77650e628a6ae889f78a74b82d7f57bfe87936111986c1d49c70a04de9dd174f1957b68a9636facd8b9624b5215d4cc6e27fca
   languageName: node
   linkType: hard
 
@@ -10426,6 +10622,15 @@ fsevents@~2.3.2:
   languageName: node
   linkType: hard
 
+"scroll-into-view-if-needed@npm:^2.2.25":
+  version: 2.2.28
+  resolution: "scroll-into-view-if-needed@npm:2.2.28"
+  dependencies:
+    compute-scroll-into-view: ^1.0.17
+  checksum: 13417602248ffe5a371ce83c6c1471d6859683007ee65c7b5d103641f104b5821c04175afbd19a86bb4df140f137439d3aa96528fea16cd6be2f9cdb53ce427a
+  languageName: node
+  linkType: hard
+
 "select-hose@npm:^2.0.0":
   version: 2.0.0
   resolution: "select-hose@npm:2.0.0::__archiveUrl=https%3A%2F%2Fregistry.nlark.com%2Fselect-hose%2Fdownload%2Fselect-hose-2.0.0.tgz"
@@ -10586,6 +10791,13 @@ fsevents@~2.3.2:
   bin:
     sha.js: ./bin.js
   checksum: 7554240ab76e683f7115123eb4815aae16b5fc6f2cdff97009831ad5b17b107ffcef022526211f7306957bce7a67fa4d0ccad79a3040c5073414365595e90516
+  languageName: node
+  linkType: hard
+
+"shallow-equal@npm:^1.0.0":
+  version: 1.2.1
+  resolution: "shallow-equal@npm:1.2.1"
+  checksum: 5002ac4a3639e35782d3cb21073d48e1e4f85321cc54608f48b2331f6db6d54e4f4b44ed81ec4d75385ebe893e8286752b1e29595381e6adad72dd836f001b7f
   languageName: node
   linkType: hard
 
@@ -12076,6 +12288,17 @@ typescript@~4.1.5:
   languageName: node
   linkType: hard
 
+"vue-types@npm:^3.0.0":
+  version: 3.0.2
+  resolution: "vue-types@npm:3.0.2"
+  dependencies:
+    is-plain-object: 3.0.1
+  peerDependencies:
+    vue: ^3.0.0
+  checksum: c6a7e9147b13ed72403ccb23e13a18926034718d36863b7441acd74f55544617d5bb6df62abc1190fc28548fa71fdd4d1ba2a3a8f38b60b2b873a6247d48986b
+  languageName: node
+  linkType: hard
+
 "vue@npm:^3.0.0":
   version: 3.1.4
   resolution: "vue@npm:3.1.4::__archiveUrl=https%3A%2F%2Fregistry.nlark.com%2Fvue%2Fdownload%2Fvue-3.1.4.tgz"
@@ -12084,6 +12307,15 @@ typescript@~4.1.5:
     "@vue/runtime-dom": 3.1.4
     "@vue/shared": 3.1.4
   checksum: 5b256d788c12cbd74ba3ca7a83456696cbacc2b7ef02e54a9f587c7bf5c42d7892e8d896aac96554056263c87f21e956a9636696bbd0843b05a92bc040fe3ffa
+  languageName: node
+  linkType: hard
+
+"warning@npm:^4.0.0":
+  version: 4.0.3
+  resolution: "warning@npm:4.0.3"
+  dependencies:
+    loose-envify: ^1.0.0
+  checksum: 20ef5d29ff9c20af3060e504914a00d5a90ce346e75e6691efbedb540481cdc82070c966d75195f812de64bb0bd7f1b02315fcb52469db151c0f15e29002781c
   languageName: node
   linkType: hard
 
